@@ -47,6 +47,7 @@
     <Compile Include="Cards.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="DragCards.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

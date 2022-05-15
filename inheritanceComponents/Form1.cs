@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-
+using Train;
 namespace inheritanceComponents
 {
     public partial class Form1 : Form
@@ -20,6 +20,7 @@ namespace inheritanceComponents
         {
             Card c = new Card(5, panelRight, 0);
             Card c1 = new Card(2, this, 50);
+
         }
     }
 }
