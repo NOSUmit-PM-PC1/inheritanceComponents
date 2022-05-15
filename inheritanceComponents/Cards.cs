@@ -16,6 +16,8 @@ namespace inheritanceComponents
             this.Top = 10;
             this.Left = 20;
             control.Controls.Add(this);
+
+            this.SizeMode = PictureBoxSizeMode.AutoSize;
         }
     }
 }

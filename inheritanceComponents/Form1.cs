@@ -18,7 +18,7 @@ namespace inheritanceComponents
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Card c = new Card(5, this);
+            Card c = new Card(5, panelRight);
         }
     }
 }
